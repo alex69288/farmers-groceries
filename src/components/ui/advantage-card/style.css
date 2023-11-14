@@ -1,0 +1,39 @@
+.advantage-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  min-height: 197px;
+  background-color: #e1edce;
+}
+
+.advantage-image {
+  position: absolute;
+}
+
+.advantage-title {
+  margin-left: 72px;
+  padding: 2px 10px;
+  display: inline-block;
+  width: max-content;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fff;
+  background-color: #88aa4d;
+}
+
+.advantage-subtitle {
+  margin-left: 72px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.advantage-description {
+  margin: 0;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
