@@ -5,7 +5,7 @@ const advantagesList = [
     advantage: 'Еда намного вкуснее',
     description:
       'Домашняя колбаса из мяса, соли и специй и колбаса из магазина — два настолько разных продукта, что они даже не родственники',
-    image: './assets/plate.svg',
+    image: '/assets/plate.svg',
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ const advantagesList = [
     advantage: 'Просроченные продукты',
     description:
       'Из-за большого количество товара сотрудники магазинов не успевают своевременно производить замену товара',
-    image: './assets/garbage.svg',
+    image: '/assets/garbage.svg',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const advantagesList = [
     advantage: 'Натуральные продукты',
     description:
       'Поставляем местные органические продукты выращенные без пестицидов и химических удобрений.',
-    image: './assets/plant.svg',
+    image: 'assets/plant.svg',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const advantagesList = [
     advantage: 'Некачественное мясо',
     description:
       'Мясные полуфабрикаты, в которых содержится чрезмерно много натрия, вредных жиров, консервантов',
-    image: './assets/no-meat.svg',
+    image: 'assets/no-meat.svg',
   },
 ];
 

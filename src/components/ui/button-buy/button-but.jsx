@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function ButtonBuy({ marginTop }) {
+function ButtonBuy({ className }) {
   return (
-    <a className='button-link' href='/' style={{ marginTop: marginTop }}>
+    <a className={className ? `button ${className}` : 'button'} href='/'>
       Купить
     </a>
   );

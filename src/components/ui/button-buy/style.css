@@ -1,9 +1,7 @@
-.button-link {
+.button {
   display: inline-block;
-
   padding: 16.5px 97.5px;
   background-color: #fc9b27;
-
   font-family: Inter;
   font-size: 18px;
   font-weight: 700;

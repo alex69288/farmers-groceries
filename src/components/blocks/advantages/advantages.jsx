@@ -17,7 +17,7 @@ function Advantages({ advantages }) {
           ))}
         </ul>
 
-        <ButtonBuy marginTop={64} />
+        <ButtonBuy className={'advantages-button'} />
       </Container>
     </section>
   );
