@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.css';
+import { Text } from './style.js';
 
 function Copyright() {
-  return <p className='copyright'>Создано 2021</p>;
+  return <Text>Создано 2021</Text>;
 }
 
 export default Copyright;

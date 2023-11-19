@@ -1,17 +1,19 @@
-.advantage-card {
+import styled from 'styled-components';
+
+export const Article = styled.article`
   padding: 20px;
   display: flex;
   flex-direction: column;
   width: 540px;
   min-height: 197px;
   background-color: #e1edce;
-}
+`;
 
-.advantage-image {
+export const Img = styled.img`
   position: absolute;
-}
+`;
 
-.advantage-title {
+export const Title = styled.span`
   margin-left: 72px;
   padding: 2px 10px;
   display: inline-block;
@@ -21,19 +23,19 @@
   line-height: 150%;
   color: #fff;
   background-color: #88aa4d;
-}
+`;
 
-.advantage-subtitle {
+export const Subtitle = styled.span`
   margin-left: 72px;
   font-size: 18px;
   font-weight: 700;
   line-height: 150%;
-}
+`;
 
-.advantage-description {
+export const Description = styled.p`
   margin: 0;
   margin-top: 16px;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
-}
+`;

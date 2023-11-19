@@ -1,11 +1,12 @@
 import React from 'react';
-import './style.css';
+import './style.js';
+import { Button } from './style.js';
 
 function ButtonBuy({ className }) {
   return (
-    <a className={className ? `button ${className}` : 'button'} href='/'>
+    <Button className={className} href="/">
       Купить
-    </a>
+    </Button>
   );
 }
 

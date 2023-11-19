@@ -1,21 +1,19 @@
 import React from 'react';
-import './style.css';
 import Container from '../../layout/container/container';
+import { AboutDescription, AboutSection, AboutTitle } from './style';
 
 function About() {
   return (
-    <section className='about'>
+    <AboutSection>
       <Container>
-        <h1 className='about-title'>
-          Магазин фермерских продуктов с доставкой
-        </h1>
-        <p className='about-description'>
+        <AboutTitle>Магазин фермерских продуктов с доставкой</AboutTitle>
+        <AboutDescription>
           Все продукты изготавливаются под заказ. Фермеры начинают готовить
           продукты за день до отправки заказа клиентам. Именно поэтому мы
           принимаем заказы заранее и доставляем продукты максимально свежими.
-        </p>
+        </AboutDescription>
       </Container>
-    </section>
+    </AboutSection>
   );
 }
 

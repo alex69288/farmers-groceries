@@ -1,10 +1,15 @@
 import React from 'react';
-import './style.css';
 import PageWrapper from '../layout/page-wrapper/page-wrapper';
 import advantagesList from '../../mocks/advantagesList';
+import { GlobalStyle } from './style';
 
 function App() {
-  return <PageWrapper advantages={advantagesList} />;
+  return (
+    <>
+      <GlobalStyle />
+      <PageWrapper advantages={advantagesList} />
+    </>
+  );
 }
 
 export default App;

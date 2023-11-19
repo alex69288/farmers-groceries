@@ -1,19 +1,19 @@
 import React from 'react';
-import './style.css';
 import Logo from '../../ui/logo/logo';
 import Container from '../container/container';
 import Copyright from '../../ui/copyright/copyright';
+import { StyleFooter, FooterWrapper } from './style';
 
 function Footer() {
   return (
-    <footer className='footer'>
+    <StyleFooter>
       <Container>
-        <dir className='footer-wrapper'>
+        <FooterWrapper>
           <Logo />
           <Copyright />
-        </dir>
+        </FooterWrapper>
       </Container>
-    </footer>
+    </StyleFooter>
   );
 }
 

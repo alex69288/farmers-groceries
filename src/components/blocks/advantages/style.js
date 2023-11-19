@@ -1,17 +1,20 @@
-.advantages {
+import styled from 'styled-components';
+import ButtonBuy from '../../ui/button-buy/button-but';
+
+export const SectionAdvantages = styled.section`
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
-}
+`;
 
-.advantages-title {
+export const Title = styled.h2`
   margin: 0;
   font-size: 36px;
   font-weight: 700;
   line-height: 115%;
-}
+`;
 
-.advantages-list {
+export const List = styled.ul`
   padding: 0;
   margin: 0;
   margin-top: 64px;
@@ -22,8 +25,8 @@
   gap: 20px;
   flex-wrap: wrap;
   text-align: left;
-}
+`;
 
-.advantages-button {
+export const ButtonMargin = styled(ButtonBuy)`
   margin-top: 64px;
-}
+`;
