@@ -1,15 +1,17 @@
 import React from 'react';
-import Header from '../header/header';
-import MainPage from '../../pages/main-page/main-page';
+import OrderPage from '../../pages/order-page/order-page';
 import Footer from '../footer/footer';
+import Header from '../header/header';
 
 function PageWrapper({ ...prop }) {
   return (
     <>
       <Header />
-      <main className='main-page'>
-        <MainPage {...prop} />
+      <main>
+        {/* <MainPage {...prop} /> */}
+        <OrderPage />
       </main>
+
       <Footer />
     </>
   );

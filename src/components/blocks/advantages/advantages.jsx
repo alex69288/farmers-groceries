@@ -18,7 +18,7 @@ function Advantages({ advantages }) {
           ))}
         </List>
 
-        <ButtonMargin onClick />
+        <ButtonMargin />
       </Container>
     </SectionAdvantages>
   );
