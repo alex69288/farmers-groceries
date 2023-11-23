@@ -17,7 +17,6 @@ function Advantages({ advantages }) {
             </li>
           ))}
         </List>
-
         <ButtonMargin />
       </Container>
     </SectionAdvantages>

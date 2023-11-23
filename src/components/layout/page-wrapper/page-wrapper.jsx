@@ -1,17 +1,15 @@
 import React from 'react';
-import OrderPage from '../../pages/order-page/order-page';
+import { Outlet } from 'react-router-dom';
 import Footer from '../footer/footer';
 import Header from '../header/header';
 
-function PageWrapper({ ...prop }) {
+function PageWrapper({ ...props }) {
   return (
     <>
       <Header />
       <main>
-        {/* <MainPage {...prop} /> */}
-        <OrderPage />
+        <Outlet />
       </main>
-
       <Footer />
     </>
   );

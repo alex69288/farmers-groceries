@@ -1,10 +1,9 @@
 import React from 'react';
-import './style.js';
 import { Button } from './style.js';
 
 function ButtonBuy({ className }) {
   return (
-    <Button className={className} href="/">
+    <Button className={className} to="order">
       Купить
     </Button>
   );

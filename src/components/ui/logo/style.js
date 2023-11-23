@@ -1,24 +1,7 @@
-/* .logo__link {
-  display: flex;
-  align-items: center;
-  column-gap: 24px;
-  text-decoration: none;
-}
-.logo__img {
-  width: 44px;
-  height: 44px;
-}
-.logo__title {
-  font-family: Inter;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 115%;
-  color: #333;
-} */
-
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Link = styled.a`
+export const LinkStyle = styled(Link)`
   display: flex;
   align-items: center;
   column-gap: 24px;

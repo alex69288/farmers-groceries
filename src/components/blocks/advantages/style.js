@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ButtonBuy from '../../ui/button-buy/button-but';
+import ButtonBuy from '../../ui/button/button';
 
 export const SectionAdvantages = styled.section`
   padding-top: 100px;

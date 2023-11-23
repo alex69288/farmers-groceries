@@ -5,7 +5,7 @@ const advantagesList = [
     advantage: 'Еда намного вкуснее',
     description:
       'Домашняя колбаса из мяса, соли и специй и колбаса из магазина — два настолько разных продукта, что они даже не родственники',
-    image: './assets/plate.svg',
+    image: 'img/order-page/plate.svg',
   },
   {
     id: 1,
